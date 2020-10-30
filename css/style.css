@@ -11,15 +11,21 @@ body {
     background-color: #E5E9F2;
 }
 
+img{
+    width: 200px;
+}
+
 #box {
     background-color:#15D9E9 ;
     text-align: center;
-    margin: 110px 30px;
-    height: 450px;
+    margin: 0px 30px;
+    height: 599px;
+    border-radius: 90px;
 }
 
 #box h1{
     padding-top: 40px;
+    font-family: 'Grandstander', cursive;
 
 }
 
@@ -35,6 +41,18 @@ body {
 input{
     margin-top: 30px;
     padding: 12px 50px;
+    border: none;
+    background: none;
+    border-bottom: 1px solid black;
+    outline: none;
+}
+.input-letter{
+    margin-top: 30px;
+    padding: 12px 50px;
+    border: none;
+    background: white;
+    border-bottom: 1px solid black;
+    outline: none;
 }
 button{
     margin-top: 30px;
@@ -43,6 +61,8 @@ button{
     background: #47525E;
     color: white;
     border:none;
+    border-radius: 9px;
+    font-weight: bold;
 }
 
 .cadastro{
@@ -52,6 +72,18 @@ button{
     text-decoration: none;
     color: white;
     margin-bottom: 20px;
+    border:none;
+    border-radius: 9px;
+    font-weight: bold;
+}
+
+button:hover{
+    background: #2679c7;
+    transition: all 0.2s;
+}
+.cadastro:hover{
+    background: #2679c7;
+    transition: all 0.2s;
 }
 
 .senha {

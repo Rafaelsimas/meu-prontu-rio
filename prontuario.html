@@ -14,15 +14,18 @@
 
 <body>
     <div id="box-center">
+        <img src="./assets/img/logo.png" alt="">
         <h1>Prontuário</h1>
-        <p>Descreva os sintomas</p>
-        <textarea name="" id="" cols="90" rows="20"></textarea>
-        <h2>Exames</h2>
-        <input type="text" placeholder="Adicionar documentos">
-        <button>+</button>
-        <button>Finalizar</button>
+        <input type="text" placeholder="Nome" id="nome" value="">
+        <input type="text" placeholder="Sobrenome" id="sobrenome" value="">
+        <input type="text" placeholder="Endereço" id="endereco" value="">
+        <input type="text" placeholder="RG" id="identidade" value="">
+        <textarea style="margin-top: 20px;" name="sintomas" id="sintomas" cols="30" rows="10"></textarea>
+        <button type="submit" onclick="solicitar()">Solicitar atendimento</button>
+        <div id="root"></div>
         <a href="usuario.html">Voltar</a>
     </div>
+    <script src="./javascript/scripts.js"></script>
 </body>
 
 </html>
